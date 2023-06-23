@@ -1,4 +1,4 @@
-// Program to display cude of a number
+// Program to display cube of a number
 // Date : 16-JUN-2023
 
 #include <stdio.h>
