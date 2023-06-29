@@ -1,4 +1,4 @@
-//Print 10 to 1
+//Print 1 to 10 with for
 //Date : 28-JUN-2023
 
 #include <stdio.h>
@@ -7,13 +7,8 @@ void main()
 {
  int num;
 
-      num = 10;
-
-      while(num >= 1)
-      {
-        printf("%d ", num);
-        num --;
-      }
-
-      printf("\nThe End");
+       for(num = 1; num <= 10; num ++)
+       {
+           printf("%d ", num);
+       }
 }
