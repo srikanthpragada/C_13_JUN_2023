@@ -1,11 +1,11 @@
-//Print smallest factor
+//Print whether number is prime or not
 //Date : 1-Jul-2023
 
 #include <stdio.h>
 
 void main()
 {
- int num, i, found = 0;
+ int num, i, prime = 1;
 
       printf("Enter number :");
       scanf("%d", &num);
@@ -14,14 +14,15 @@ void main()
       {
           if (num % i == 0)
           {
-             printf("%d ", i);
-             found = 1;
+             prime = 0; // found factors so number is not prime
              break;
           }
       }
 
-      if(!found)
-         printf("%d", num);
+      if(prime)
+         printf("Prime Number");
+      else
+         printf("Not a prime number");
 
 
 }
