@@ -8,8 +8,8 @@ void main()
   char ch;
 
      printf("Enter char :");
-     scanf("%c", &ch);
+     ch = getche();
 
-     printf("%c ", ch);
-     printf("%d ", ch);
+     printf("\n%d",ch);
+
 }
