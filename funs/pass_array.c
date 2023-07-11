@@ -1,21 +1,19 @@
-//Write message with lines
-//Date : 10-JUL-2023
+//Print chars between two given chars
+//Date : 11-JUL-2023
 
 #include <stdio.h>
 
-void print_array(int a[10])
+void print_chars(char fromchar, char tochar)
 {
- int i;
+ char ch;
 
-    for(i = 0; i < 10; i ++)
+    for(ch = fromchar; ch <= tochar ; ch ++)
     {
-        printf("%d\n", a[i]);
+        putch(ch);
     }
 }
 
 void main()
 {
-  int arr[10];
-
-      print_array(arr);
+   print_chars('A' , 'K');
 }
